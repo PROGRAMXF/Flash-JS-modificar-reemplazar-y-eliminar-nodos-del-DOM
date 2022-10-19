@@ -11,14 +11,14 @@ function nuevo() {
 
 
 function reemplazar(){
-    var nuevoH2 = document.createElement("h2");
-    var nuevoH2Texto = document.createTextNode("Bienvenido");
-    nuevoH2.appendChild(nuevoH2Texto);
+    var nuevop = document.createElement("p");
+    var nuevoTexto = document.createTextNode("BIENVENIDO");
+    nuevop.appendChild(nuevoTexto);
 
     var mydiv = document.getElementById("id1");
     var viejoP = document.getElementById("para1");
 
-    mydiv.replaceChild(nuevoH2, viejoP);
+    mydiv.replaceChild(nuevop, viejoP);
 }
 window.onload = function(){
     document.getElementById("btn").onclick = reemplazar;
