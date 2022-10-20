@@ -1,11 +1,11 @@
 //modificar
 function modificar() {
   var cambiar = document.getElementById("titulo");
-  cambiar.innerHTML = "MODIFICADO";
+  cambiar.innerHTML = "LISTO, ¡TE MODIFIQUE!";
 }
 function nuevo() {
   var cambiar = document.getElementById("titulo");
-  cambiar.innerHTML = "TITULO A MODIFICAR";
+  cambiar.innerHTML = "Modificame";
 }
 
 
@@ -13,7 +13,7 @@ function nuevo() {
 //reemplazar
 function reemplazar(){
     var nuevop = document.createElement("p");
-    var nuevoTexto = document.createTextNode("BIENVENIDO");
+    var nuevoTexto = document.createTextNode("¡¡Muchas gracias!!");
     nuevop.appendChild(nuevoTexto);
 
     var mydiv = document.getElementById("id1");
