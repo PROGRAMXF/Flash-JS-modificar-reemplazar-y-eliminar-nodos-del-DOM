@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MODIFICAR REEMPLAZAR Y ELIMINAR NODOS DEL DOM</title>
   </head>
+  
   <body>
+    <!-- modificar -->
     <div>
       <ol id="lista">
         <li id="titulo">TITULO A MODIFICAR</li>
@@ -15,11 +17,20 @@
       </ol>
     </div>
 
+    <!-- reemplazar -->
     <div id="id1">
       <p id="para1">Bienvenido a mi pagina</p>
       <p id="para2">Aqui puedes ver los contenidos</p>
       <input id="btn" value="reemplazar el elemento" type="button" />
     </div>
+
+    <!-- eliminar -->
+    <div >
+        <h1 id="app">Hello World!!</h1>
+        <p id="removeme">Remove Me</p>
+        <button id="rem" class="btn" onclick="eliminar();">ELIMINAR</button>
+    </div>
+    
   </body>
   <script src="codigo.js"></script>
 </html>
