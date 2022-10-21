@@ -4,34 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>MODIFICAR REEMPLAZAR Y ELIMINAR NODOS DEL DOM</title>
   </head>
-  
+
   <body>
-    <!-- modificar -->
-    <div>
-      <ol id="lista">
-        <li id="titulo">Modificame</li>
-        <button id="cam" class="btn" onclick="modificar();">Modidicar</button>
-        <button id="nuevo" class="btn_nuevo" onclick="nuevo();">Nuevo</button>
-      </ol>
-    </div>
+    <div class="contenedor">
+      <!-- modificar -->
+      <div class="modificar">
+        <ol id="lista">
+          <h2 id="titulo">Modificame</h2>
+          <button id="cam" class="btn" onclick="modificar();">MODIFICAR</button>
+        </ol>
+      </div>
 
-    <!-- reemplazar -->
-    <div id="id1">
-      <p id="para1">Bienvenido a mi pagina</p>
-      <p id="para2">Aqui puedes ver mis contenidos</p>
-      <input id="btn" value="Reemplazar el elemento" type="button" />
-    </div>
+      <!-- reemplazar -->
+      <div id="id1">
+        <h2 id="para1">Bienvenido a mi pagina</h2>
+        <h2 id="para2">Aqui puedes ver mis contenidos</h2>
+        <input id="btn" value="REEMPLAZAR" type="button" />
+      </div>
 
-    <!-- eliminar -->
-    <div >
+      <!-- eliminar -->
+      <div class="eliminar">
         <h1 id="app">¡¡Eliminame!!</h1>
-        <p id="removeme">Me</p>
-        <button id="rem" class="btn" onclick="eliminar();">ELIMINAR</button>
+        <h2 id="removeme">Me</h2>
+        <button id="remover" class="btn" onclick="eliminar();">ELIMINAR</button>
+      </div>
     </div>
-    
-    <h2 class="actualizar">Actualizar con F5</h2>
+
+    <h3 class="actualizar">Actualizar con F5</h3>
   </body>
   <script src="codigo.js"></script>
 </html>
