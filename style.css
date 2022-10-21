@@ -1,3 +1,6 @@
+body {
+  background-color: darkcyan;
+}
 .contenedor {
   margin-top: 10%;
   display: grid;
@@ -13,6 +16,7 @@
   border-radius: 50%;
   margin-top: 23%;
   cursor: pointer;
+  background-color: coral;
 }
 
 #btn {
@@ -20,12 +24,14 @@
   border-radius: 50%;
   margin-top: 10%;
   cursor: pointer;
+  background-color: coral;
 }
 #remover {
   padding: 3%;
   border-radius: 50%;
   margin-top: 7%;
   cursor: pointer;
+  background-color: coral;
 }
 #titulo {
   text-align: left;
